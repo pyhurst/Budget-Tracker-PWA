@@ -17,6 +17,18 @@ const config = {
       background_color: "#01579b",
       theme_color: "#ffffff",
       start_url: "/",
+
+      icons: [
+        {
+          src: path.resolve(
+            __dirname,
+            "public/assets/images/icons/icon-512x512.png"
+            ),
+          // the plugin will generate an image for each size
+          // included in the size array
+          size: [192, 512]
+        }
+      ]
     }),
     
   ],
