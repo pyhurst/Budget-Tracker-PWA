@@ -22,7 +22,7 @@ const config = {
         {
           src: path.resolve(
             __dirname,
-            "public/assets/images/icons/icon-512x512.png"
+            "public/images/icons/icon-512x512.png"
             ),
           // the plugin will generate an image for each size
           // included in the size array
