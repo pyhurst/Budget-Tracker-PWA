@@ -1,4 +1,5 @@
 const WebpackPwaManifest = require("webpack-pwa-manifest");
+const path = require("path");
 
 const config = {
   mode: "production",
@@ -22,7 +23,7 @@ const config = {
         {
           src: path.resolve(
             __dirname,
-            "public/images/icons/icon-512x512.png"
+            "public/icons/icon-512x512.png"
             ),
           // the plugin will generate an image for each size
           // included in the size array
